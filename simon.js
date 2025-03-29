@@ -10,7 +10,7 @@ let gameSeq=[];
 let userSeq=[];
 
 let btns=["red","cyan","orange","blue"];
-let started=false;//still game is not started.
+let started=false;//still game is not started..
 let level=0;
 let highestscore=0;
 div.addEventListener("click",function(){
