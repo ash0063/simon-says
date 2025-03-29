@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background:rgba(0, 0,0, 0.901) url(simon2.jpg);
+    background-size: auto;
+   
+}
+
+#container div{
+    margin: 0 auto;
+    border:5px solid black;
+    border-radius: 20%;
+    height: 100px;
+    width:100px;
+    margin-top: 10px;
+}
+
+#container{
+    display: flex;
+    flex-wrap:wrap;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    
+}
+.red{
+    background-color: hsl(340, 64%, 61%);
+}
+.cyan{
+    background-color: cadetblue;
+}
+.orange{
+    background-color: rgb(237, 117, 73);
+}
+.blue{
+    background-color: rgba(80, 133, 206, 0.901);
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: rgb(107, 237, 194);
+}
+.gameOver{
+    background-color: rgb(206, 13, 13);
+}
+
